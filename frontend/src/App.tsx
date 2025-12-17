@@ -1,21 +1,20 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
-import Blog from './pages/Blog'
-import Recipes from './pages/Recipes'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import Recipes from "./pages/Recipes";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/blog' element={<Blog/>} />
-          <Route path='/recipes' element={<Recipes/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/recipes" element={<Recipes />} />
         </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
