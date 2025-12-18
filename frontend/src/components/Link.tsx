@@ -8,7 +8,7 @@ export default function Component({
   children?: React.ReactNode;
 }) {
   return (
-    <Link to={to} className="hover:underline">
+    <Link to={to} className="text-right hover:text-(--color-primary-50)">
       {children}
     </Link>
   );

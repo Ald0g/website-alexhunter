@@ -1,5 +1,4 @@
 import { Button } from "flowbite-react";
-import NavBar from "@/layouts/content/NavBar";
 import MainPage from "../layouts/content/MainPage";
 
 export default function Recipes() {

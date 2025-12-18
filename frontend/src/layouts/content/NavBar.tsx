@@ -1,6 +1,5 @@
 import {
   Navbar,
-  NavbarBrand,
   NavbarCollapse,
   NavbarToggle,
 } from "flowbite-react";
@@ -11,7 +10,7 @@ import Link from "@/components/Link";
 
 export default function NavBar() {
   return (
-    <Navbar fluid rounded className="bg-(--color-primary-90)">
+    <Navbar fluid className="bg-(--color-primary-90) sticky top-0 z-50">
       <Link to={"/"}>
         <div className="flex items-center">
           <img src="/favicon.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
